@@ -12,7 +12,30 @@
 // console.log(typeof undefined); // undefined
 // console.log(typeof null); // object
 
-const id = symbol('123');
-const anotherId = symbol('123');
+// const id = symbol('123');
+// const anotherId = symbol('123');
 
-console.log(id === anotherId);
+// console.log(id === anotherId);
+
+// console.log(10);
+
+let name = "Gourav";
+let anotherName = name;
+anotherName = "Mondal"
+
+// console.log(name);
+// console.log(anotherName);
+
+let userOne = {
+    email : "abcd@gmail.com",
+    upi : "user@ibl"
+}
+
+let userTwo = userOne;
+
+// console.log(userTwo)
+
+userTwo.email = "Gour@gmail.com"
+
+// console.log(userOne.email);
+// console.log(userTwo.email);
