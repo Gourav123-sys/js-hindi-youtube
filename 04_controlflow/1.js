@@ -13,4 +13,4 @@
 
  console.log(val);
 
- // Nullish coalescing operator and ternory operator are different thing
+ // Nullish coalescing operator and terniary operator are different thing
